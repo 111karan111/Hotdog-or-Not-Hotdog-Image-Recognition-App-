@@ -15,6 +15,7 @@
 		01A1376926288246000D0D9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A1376726288246000D0D9C /* LaunchScreen.storyboard */; };
 		01A1377426288247000D0D9C /* mlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1377326288247000D0D9C /* mlTests.swift */; };
 		01A1377F26288247000D0D9C /* mlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A1377E26288247000D0D9C /* mlUITests.swift */; };
+		01A13790262883FF000D0D9C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 01A1378F262883FF000D0D9C /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		01A1377A26288247000D0D9C /* mlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A1377E26288247000D0D9C /* mlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mlUITests.swift; sourceTree = "<group>"; };
 		01A1378026288247000D0D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A1378F262883FF000D0D9C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				01A1376026288244000D0D9C /* ViewController.swift */,
 				01A1376226288244000D0D9C /* Main.storyboard */,
 				01A1376526288246000D0D9C /* Assets.xcassets */,
+				01A1378F262883FF000D0D9C /* Inceptionv3.mlmodel */,
 				01A1376726288246000D0D9C /* LaunchScreen.storyboard */,
 				01A1376A26288246000D0D9C /* Info.plist */,
 			);
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A1376126288244000D0D9C /* ViewController.swift in Sources */,
+				01A13790262883FF000D0D9C /* Inceptionv3.mlmodel in Sources */,
 				01A1375D26288244000D0D9C /* AppDelegate.swift in Sources */,
 				01A1375F26288244000D0D9C /* SceneDelegate.swift in Sources */,
 			);
